@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --color-1: rgb(39, 39, 39);
+    --color-2: rgb(10, 50, 182);
+    --color-3: rgb(102, 102, 102);
+    --color-4: rgb(133, 167, 54);
+}
