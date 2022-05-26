@@ -5,3 +5,6 @@
     --color-3: rgb(102, 102, 102);
     --color-4: rgb(133, 167, 54);
 }
+*{
+    font-family: 'DM Serif Display', serif;;
+}

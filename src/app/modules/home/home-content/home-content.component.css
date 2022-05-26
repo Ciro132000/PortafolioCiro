@@ -1,5 +1,5 @@
 .cover-image-wrapper{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     color: #ffff;
     position: relative;
@@ -12,7 +12,7 @@
     background-size: cover;
     background-attachment: scroll;
     transform: translate3d(0px, 0px, 0px);
-    background-position: 55% 50%;  
+    background-position: 60% 50%;  
 
     display: flex;
     justify-content: center;
@@ -33,3 +33,47 @@
     width: 100%;
     bottom: 0;
 }
+
+.wave-t{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.subtitle{
+    font-size: 2.5rem;
+    color: rgb(194, 183, 28);
+}
+
+.p-content{
+    font-size: 1.3rem;
+}
+
+.skill{
+    background: rgb(0, 0, 0);  
+    background: -webkit-linear-gradient(to right,rgb(0, 0, 0), rgb(74, 77, 78)); 
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 77, 78)); 
+
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+
+    margin-top: 6rem;
+
+    position: relative;
+}
+
+.card{
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+a{
+    color: rgb(194, 183, 28);
+}
+
+.img-card{
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
