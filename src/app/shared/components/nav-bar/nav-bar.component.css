@@ -1,0 +1,13 @@
+.bg-navbar{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.navbar-toggler-icon{
+    color: red !important;
+    z-index: 10000px;
+}
+.nav-link{
+    color: #ffff;
+}
+.nav-link:hover{
+    color: rgb(194, 183, 28);
+}

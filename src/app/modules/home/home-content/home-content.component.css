@@ -1,0 +1,35 @@
+.cover-image-wrapper{
+    height: 100vh;
+    width: 100%;
+    color: #ffff;
+    position: relative;
+
+    background: rgba(0, 0, 0, 0.609);  
+    background: -webkit-linear-gradient(to right,rgba(0, 0, 0, 0.609), rgba(74, 77, 78, 0.609)), url('../../../../assets/img/portada.jpg'); 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(74, 77, 78, 0.609)), url('../../../../assets/img/portada.jpg'); 
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    transform: translate3d(0px, 0px, 0px);
+    background-position: 55% 50%;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-size: 4rem;
+}
+
+.presentacion h4{
+    font-size: 2rem;
+    color: rgb(110, 103, 1);
+}
+
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

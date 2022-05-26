@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeContentComponent } from './home-content/home-content.component';
 
 
 const routes: Routes = [
+  {
+    path:'',
+    component: HomeContentComponent
+  },
   {
     path:'about',
     loadChildren: ()=> import('@modules/about/about.module').then(m=>m.AboutModule)
