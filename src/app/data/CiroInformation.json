@@ -1,0 +1,91 @@
+{
+
+        "information":{
+            "fullName": "Ciro Candiotti Ramirez",
+            "profesion":"Desarrollador web - Front End",
+            "correo":"ciro.jean.candiotti@gmail.com",
+            "telefono":"+51 929 739 991",
+            "about":"Hola, Soy Ciro Candiotti, estudiante de Ingenieria de sistemas e informática y desarrollador web junior. Me gusta el desarrollo web en la parte del Front End y también un poco de backend.",
+            "fullAbout":""
+        },
+        "conocimientos":[
+            {
+                "tecnologia":"HTML",
+                "level":60,
+                "img":"./assets/img/conocimientos/html.png"
+            },
+            {
+                "tecnologia":"CSS 3",
+                "level":60,
+                "img":"./assets/img/conocimientos/css.png" 
+            },
+            {
+                "tecnologia":"JAVA SCRIPT",
+                "level":60,
+                "img":"./assets/img/conocimientos/js.png" 
+            },
+            {
+                "tecnologia":"JAVA",
+                "level":60,
+                "img":"./assets/img/conocimientos/java.png" 
+            },
+            {
+                "tecnologia":"BOOTSTRAP",
+                "level":60,
+                "img":"./assets/img/conocimientos/bootstrap.png" 
+            },
+            {
+                "tecnologia":"ANGULAR",
+                "level":60,
+                "img":"./assets/img/conocimientos/angular.png" 
+            },
+            {
+                "tecnologia":"VUE JS",
+                "level":60,
+                "img":"./assets/img/conocimientos/vue.png" 
+            },
+            {
+                "tecnologia":"NODE JS",
+                "level":60,
+                "img":"./assets/img/conocimientos/node.png" 
+            }
+        ],
+        "trabajos":[
+            {
+                "name":"Proyecto Aula Virtual",
+                "descripcion":"Este proyecto fue desarrollado para la empresa promolider",
+                "imagen":"",
+                "url_pagina":"http://virtual-classroom.promolider.xyz",
+                "url_git":""
+            },
+            {
+                "name":"Proyecto 2",
+                "descripcion":"Proyecto 2",
+                "imagen":"",
+                "url_pagina":"",
+                "url_git":""
+            },
+            {
+                "name":"Proyecto 3",
+                "descripcion":"Proyecto 3",
+                "imagen":"",
+                "url_pagina":"",
+                "url_git":""
+            }
+        ],
+        "certificados":[
+            {
+                "nombre":"",
+                "emisor":"",
+                "url":""
+            }
+        ],
+        "experiencia":[
+            {
+                "empresa":"",
+                "periodo":"",
+                "roles":""
+            }
+        ]
+
+}

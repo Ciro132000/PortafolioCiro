@@ -8,3 +8,12 @@
 *{
     font-family: 'DM Serif Display', serif;;
 }
+body::-webkit-scrollbar{
+    width: 7px;
+    background: rgb(65, 63, 63);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(194, 183, 28);
+    border-radius: 10px;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import CiroInformation from '@data/CiroInformation.json';
 
 @Component({
   selector: 'app-home-content',
@@ -11,5 +12,7 @@ export class HomeContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  ciro=CiroInformation
 
 }

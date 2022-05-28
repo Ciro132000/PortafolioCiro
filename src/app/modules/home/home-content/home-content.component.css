@@ -60,6 +60,7 @@
     margin-top: 6rem;
 
     position: relative;
+    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 93%);
 }
 
 .card{
@@ -72,8 +73,7 @@ a{
     color: rgb(194, 183, 28);
 }
 
-.img-card{
-    position: relative;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-}
 
+.works img{
+    width: 100%;
+}
