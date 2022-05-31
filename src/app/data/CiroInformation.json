@@ -5,8 +5,9 @@
             "profesion":"Desarrollador web - Front End",
             "correo":"ciro.jean.candiotti@gmail.com",
             "telefono":"+51 929 739 991",
-            "about":"Hola, Soy Ciro Candiotti, estudiante de Ingenieria de sistemas e informática y desarrollador web junior. Me gusta el desarrollo web en la parte del Front End y también un poco de backend.",
-            "fullAbout":""
+            "ciudad":"Lima - Perú",
+            "about":"Hola, Soy Ciro Candiotti, estudiante de Ingenieria de sistemas e informática  y desarrollador web junior. Me gusta el desarrollo web en la parte del Front End y también un poco de backend.",
+            "fullAbout":"Soy un estudiante de octavo ciclo en la carrera de Ingenieria de sistemas e informática en la Universidad Tecnológica del Perú de la ciudad de Lima. Me apasiona el desarrollo web por la parte del Front End y tambien estoy comenzando con el desarrollo Back End"
         },
         "conocimientos":[
             {
@@ -75,9 +76,24 @@
         ],
         "certificados":[
             {
-                "nombre":"",
-                "emisor":"",
-                "url":""
+                "nombre":"Tutor STEM Física",
+                "emisor":"Universidad Tecnológica del Perú",
+                "url":"./assets/archivos/certificados/TutorSTEMFísica.pdf"
+            },
+            {
+                "nombre":"Tutor STEM - Algorítmica",
+                "emisor":"Universidad Tecnológica del Perú",
+                "url":"./assets/archivos/certificados/Algorítmica.pdf"
+            },
+            {
+                "nombre":"Excel Intermedio",
+                "emisor":"Universidad Tecnológica del Perú",
+                "url":"./assets/archivos/certificados/ExcelIntermedio.pdf"
+            },
+            {
+                "nombre":"Soporte Técnico de Computadoras",
+                "emisor":"Universidad Tecnológica del Perú",
+                "url":"./assets/archivos/certificados/SoporteComputadoras.pdf"
             }
         ],
         "experiencia":[

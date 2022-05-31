@@ -1,6 +1,6 @@
 <div>
     <div class="cover-image-wrapper d-flex">
-        <div class="container presentacion">
+        <div class="container presentacion" >
             <h1>{{ ciro.information.fullName }}</h1>
             <h4 class="mt-4">{{ ciro.information.profesion }}</h4>
         </div>
@@ -12,7 +12,7 @@
 
     </div>
     <div class="container mt-3">
-        <div class="row mb-5">
+        <div class="row mb-5" data-aos="fade-down">
             <h2 class="mb-4 subtitle">Sobre mí</h2>
             <div class="col-md-8">
                 <p class="p-content mb-5 text-justify">{{ ciro.information.about }} 
@@ -26,7 +26,7 @@
             <h2 class="mb-5 subtitle text-center">Conocimientos</h2>
             <div class="row d-flex justify-content-center">
                 <div *ngFor="let conocimiento of ciro.conocimientos" class="col-md-6 col-sm-12 my-4">
-                    <div class="card">
+                    <div class="card"  data-aos="fade-up-left">
                         <div class="row g-0">
                           <div class="col-2">
                             <img src={{conocimiento.img}} class="img-fluid rounded-start" alt="...">
@@ -49,11 +49,11 @@
     <div class="works mb-5">
       <div class="container">
         <h2 class="mb-5 subtitle text-center">Proyectos</h2>
-        <div [ngClass]="{'flex-row-reverse':i%2===0}" class="row my-4" *ngFor="let c of ciro.trabajos; let i = index ">
-          <div class="col-4 ">
+        <div [ngClass]="{'flex-row-reverse':i%2===0}" class="row my-4" *ngFor="let c of ciro.trabajos; let i = index "  >
+          <div data-aos="zoom-in-down" class="col-4">
             <img src='./assets/img/proyecto.png' >
           </div>
-          <div class="col-8 ">
+          <div class="col-8" data-aos="zoom-out">
             <h5 class="text-center pt-4">{{ c.name }}</h5>
             <p class="text-center pt-3">{{ c.descripcion }}</p>
           </div>

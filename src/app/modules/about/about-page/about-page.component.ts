@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import CiroInformation from '@data/CiroInformation.json';
+
 @Component({
   selector: 'app-about-page',
   templateUrl: './about-page.component.html',
@@ -12,4 +14,5 @@ export class AboutPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ciro=CiroInformation
 }

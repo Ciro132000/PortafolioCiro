@@ -1,0 +1,21 @@
+.fa-certificate{
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+    color: rgba(187, 168, 3, 0.5);
+}
+
+.nameCertification{
+    color: rgb(182, 88, 0);
+    text-align: center;
+}
+
+.nameEmit{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.view{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+

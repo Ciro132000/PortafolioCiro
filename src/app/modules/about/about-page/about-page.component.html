@@ -1,1 +1,22 @@
-<p>about-page works!</p>
+<div class="container my-5">
+    <h5>Sobre mí</h5>
+    <h1>{{ ciro.information.fullName }}</h1>
+    <span>{{ ciro.information.ciudad}}</span>
+    <div class="row my-5">
+        <div class="col-md-8">
+            <p>
+                {{ ciro.information.fullAbout }}
+            </p>
+        </div>
+    </div>
+    <hr>
+    <h5 class="my-5">Cerificados y reconocimientos</h5>
+    <div class="row certification">
+        <div class="col-md-4 col-sm-12 my-4 d-flex flex-column" *ngFor="let item of ciro.certificados; let i = index ">
+            <i class="fa fa-certificate text-center" aria-hidden="true"></i>
+            <h5 class="nameCertification">{{ item.nombre }}</h5>
+            <h5 class="nameEmit"><strong>Emitido por: </strong> {{ item.emisor }}</h5>
+            <a href={{item.url}} target="_blank" class="text-center"><i class="fa fa-eye text-center view" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
