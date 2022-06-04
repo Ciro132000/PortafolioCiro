@@ -7,7 +7,17 @@
             "telefono":"+51 929 739 991",
             "ciudad":"Lima - Perú",
             "about":"Hola, Soy Ciro Candiotti, estudiante de Ingenieria de sistemas e informática  y desarrollador web junior. Me gusta el desarrollo web en la parte del Front End y también un poco de backend.",
-            "fullAbout":"Soy un estudiante de octavo ciclo en la carrera de Ingenieria de sistemas e informática en la Universidad Tecnológica del Perú de la ciudad de Lima. Me apasiona el desarrollo web por la parte del Front End y tambien estoy comenzando con el desarrollo Back End"
+            "fullAbout":[
+                {
+                    "p":"Soy un estudiante de octavo ciclo en la carrera de Ingenieria de sistemas e informática en la Universidad Tecnológica del Perú de la ciudad de Lima. Me apasiona el desarrollo web por la parte del Front End y tambien estoy comenzando con el desarrollo Back End. Soy una persona autodidacta, honesta, tranquila y que busca superarse cada día. "
+                },
+                {
+                    "p":"Me gusta mucho el fútbol y en ratos libres lo practico, también me gusta la musica y mas que todo tocar la guitarra, otros de mis hobbies es resolver el cubo rubik y sus variantes."
+                },
+                {
+                    "p":"Me inicie en el mundo laboral en la empresa PROMOLIDER ORG en el mes de enero del año 2022, estuve relizando mis prácticas pre-profesionales en dicha empresa por un periodo de 4 meses, en mi estadia integre un proyecto en el cual consistia en el la implementación de un aula virtual para dicha empresa en la que me desarrollo como programador Front-End, puedes ver un poco más sobre dicho proyecto en la sección 'projects'. "
+                }
+            ]
         },
         "conocimientos":[
             {

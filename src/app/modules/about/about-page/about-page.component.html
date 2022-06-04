@@ -1,16 +1,19 @@
+<div class="portada">
+    <img src="../../../../assets/img/portadaAbout.jpg" alt="">
+</div>
 <div class="container my-5">
-    <h5>Sobre mí</h5>
-    <h1>{{ ciro.information.fullName }}</h1>
-    <span>{{ ciro.information.ciudad}}</span>
+    <h5 class="my-5 subtitle-2">Sobre mí</h5>
+    <h1 class="mb-4">{{ ciro.information.fullName }}</h1>
+    <span>{{ ciro.information.ciudad}} <img class="peru" src="../../../../assets/img/icon/iconperu.png" alt=""> </span>
     <div class="row my-5">
         <div class="col-md-8">
-            <p>
-                {{ ciro.information.fullAbout }}
+            <p *ngFor="let item of ciro.information.fullAbout">
+                {{ item.p }}
             </p>
         </div>
     </div>
     <hr>
-    <h5 class="my-5">Cerificados y reconocimientos</h5>
+    <h5 class="my-5 subtitle-2">Certificados y reconocimientos</h5>
     <div class="row certification">
         <div class="col-md-4 col-sm-12 my-4 d-flex flex-column" *ngFor="let item of ciro.certificados; let i = index ">
             <i class="fa fa-certificate text-center" aria-hidden="true"></i>

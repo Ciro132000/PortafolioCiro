@@ -19,3 +19,17 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.portada img{
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 4rem;
+}
+
+.peru{
+    height: 35px;
+    top: 0px;
+    margin-left: 6px;
+}

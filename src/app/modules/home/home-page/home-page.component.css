@@ -1,5 +1,9 @@
+.home-wrapper{
+  overflow: hidden
+}
 
 
+/* Footer */
 .footer{
     bottom: 0px;
     background: rgb(0, 0, 0);  

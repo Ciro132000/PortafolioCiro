@@ -1,19 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
-    --color-1: rgb(39, 39, 39);
-    --color-2: rgb(10, 50, 182);
-    --color-3: rgb(102, 102, 102);
-    --color-4: rgb(133, 167, 54);
+
+    /* colors*/
+    --color-golden: rgb(194, 183, 28);
+
+    /* background*/
+    --bg-degrad-trans: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(74, 77, 78, 0.609));
+    --webkit-bg-degrad-trans:-webkit-linear-gradient(to right,rgba(0, 0, 0, 0.609), rgba(74, 77, 78, 0.609));
+    --bg-degrad: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 77, 78));
+    --webkit-bg-degrad: -webkit-linear-gradient(to right, rgb(0, 0, 0), rgb(74, 77, 78));
+    --bg-dark-custom: rgb(65, 63, 63);
 }
+
 *{
     font-family: 'DM Serif Display', serif;;
 }
+
 body::-webkit-scrollbar{
     width: 7px;
-    background: rgb(65, 63, 63);
+    background: var(--bg-dark-custom);
 }
 
 body::-webkit-scrollbar-thumb{
-    background: rgb(194, 183, 28);
+    background: var(--color-golden);
     border-radius: 10px;
+}
+
+p{
+    line-height: 2.5;
+}
+
+.subtitle, .subtitle-2 {
+    font-size: 2.5rem;
+    color: var(--color-golden);
+}
+
+.subtitle-2{
+    font-size: 1.5rem;
 }
