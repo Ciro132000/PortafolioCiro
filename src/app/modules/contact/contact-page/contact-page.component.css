@@ -1,0 +1,73 @@
+.container-contact{
+    position: relative;
+}
+
+.wsp{
+    position: absolute;
+    z-index: 1;
+    bottom: 15px;
+    right: 15px;
+    position: fixed;
+}
+
+
+.fa-whatsapp{
+    color: green !important;
+    font-size: 60px;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    cursor: pointer;
+    transition: 1s;
+    animation-duration: 3s;
+    animation-name: brinco;
+}
+
+.fa-whatsapp:hover{
+    font-size: 55px;
+}
+
+@keyframes brinco{
+    from {
+        margin-bottom: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-bottom: 0%;
+        width: 100%;
+      }
+}
+
+/* p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
+
+
+.mail{
+    background: var(--bg-degrad);
+    color: white;
+    padding-left: 16.1%;
+    min-height: 40vh;
+}
+
+.mail h1{
+    font-size: 3.5rem;
+    color: var(--color-golden-2) ;
+}
+
+.formulario{
+    width: 80%;
+    margin: auto
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import CiroInformation from '@data/CiroInformation.json';
 
 @Component({
   selector: 'app-contact-page',
@@ -12,4 +13,5 @@ export class ContactPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  mail=CiroInformation.information.correo
 }

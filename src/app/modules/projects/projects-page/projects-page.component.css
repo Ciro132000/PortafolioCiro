@@ -1,0 +1,9 @@
+.container-projects{
+    height: 100vh;
+}
+
+img{
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+}

@@ -1,1 +1,39 @@
-<p>contact-page works!</p>
+<div class="container-contact">
+    <div class="row mail py-5 align-items-center">
+        <div class="col-md-8">
+            <h1>{{mail}}</h1>
+            <p>
+                Escribeme por correo si te interesa mi trabajo, deseas realizar un proyecto o quieres contactar conmigo. <br>
+                También puedes seguirme en mis redes sociales que se encuentran en el pie de página o puedes escribirme al WhatsApp
+            </p>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h3 class="text-center" >Formulario de contacto</h3>
+        <div class="formulario">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Nombre Completo">
+            </div>
+            <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wsp">
+        <a href="https://api.whatsapp.com/send/?phone=929739991&text=Hola+Ciro%2C+%C2%BFC%C3%B3mo+estas%3F%2C+soy+........+y+quisiera+contactarme+contigo&app_absent=0" target="_blank">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <!-- <img src="../../../../assets/img/icons8.gif" alt=""> -->
+        </a>
+    </div>
+</div>
