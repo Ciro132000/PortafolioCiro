@@ -21,6 +21,7 @@
 
 .portada img{
     width: 100%;
+    min-height: 150px;
 }
 
 p{

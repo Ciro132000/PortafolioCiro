@@ -65,7 +65,7 @@
     width: 100%;
 }
 
-a{
+.linkRedirect{
     color: rgb(194, 183, 28);
 }
 
@@ -80,4 +80,15 @@ a{
 
 .row{
     padding: 0;
+}
+
+.visit-web a{
+    margin-top: 2rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.title-project{
+    font-size: 2rem;
+    color: rgba(228, 106, 6, 0.513);
 }

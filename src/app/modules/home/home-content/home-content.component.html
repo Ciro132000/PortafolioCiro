@@ -1,6 +1,11 @@
 <div>
     <div class="cover-image-wrapper d-flex">
-        <div class="container presentacion" >
+        <div class="container presentacion" 
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
             <h1>{{ ciro.information.fullName }}</h1>
             <h4 class="mt-4">{{ ciro.information.profesion }}</h4>
         </div>
@@ -16,7 +21,7 @@
             <div class="col-md-8">
                 <p class="p-content mb-5 text-justify">{{ ciro.information.about }} 
                 </p>
-                <a [routerLink]="['/about']" class="text-decoration-none mb-5">Conoce más sobre mí <i class="fa fa-arrow-right" ></i></a>
+                <a [routerLink]="['/about']" class="text-decoration-none mb-5 linkRedirect">Conoce más sobre mí <i class="fa fa-arrow-right" ></i></a>
             </div>
         </div>
     </div>
@@ -47,17 +52,21 @@
 
       <div class="container works mb-5">
         <h2 class="mb-5 subtitle text-center">Proyectos</h2>
-        <div [ngClass]="{'flex-row-reverse':i%2===0}" class="row my-4" *ngFor="let c of ciro.trabajos; let i = index "  >
-          <div data-aos="zoom-in-down" class="col-4">
-            <img src='./assets/img/proyecto.png' >
+        <div [ngClass]="{'flex-row-reverse':i%2===0}" class="row my-4" *ngFor="let c of ciro.trabajos.slice(0, 2); let i = index "  >
+          <div data-aos="zoom-in-down" class="col-md-6 ">
+            <img src={{c.imagen}} >
           </div>
-          <div class="col-8" data-aos="zoom-out">
-            <h5 class="text-center pt-4">{{ c.name }}</h5>
+          <div class="col-md-6" data-aos="zoom-out">
+            <h5 class="text-center pt-4 title-project">{{ c.name }}</h5>
             <p class="text-center pt-3">{{ c.descripcion }}</p>
+            <div class="d-flex justify-content-evenly visit-web">
+              <a *ngIf="c.url_git !== '' " href={{c.url_git}} target="_blank"><i class="fa fa-github icon" aria-hidden="true"></i></a>
+              <a *ngIf="c.url_pagina !== '' " href={{c.url_pagina}} target="_blank"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
 
-        <a [routerLink]="['/projects']" class="text-decoration-none mb-5">Ver más proyectos<i class="fa fa-arrow-right" ></i></a>
+        <a [routerLink]="['/projects']" class="text-decoration-none mb-5 linkRedirect">Ver más proyectos<i class="fa fa-arrow-right" ></i></a>
       </div>
   
 </div>

@@ -64,22 +64,22 @@
         "trabajos":[
             {
                 "name":"Proyecto Aula Virtual",
-                "descripcion":"Este proyecto fue desarrollado para la empresa promolider",
-                "imagen":"",
+                "descripcion":"Este proyecto fue desarrollado para la empresa promolider, dicho proyecto consta en el desarrollo de una aula virtual para los clientes de la empresa, esta aula virtual brinda a los usuarios diversos cursos los cuales pueden adquirir mediante una menbresia, además, el usuario puede crear sus propios cursos y generar ingresos.",
+                "imagen":"./assets/img/projects/promolider.png",
                 "url_pagina":"http://virtual-classroom.promolider.xyz",
                 "url_git":""
             },
             {
-                "name":"Proyecto 2",
-                "descripcion":"Proyecto 2",
-                "imagen":"",
-                "url_pagina":"",
-                "url_git":""
+                "name":"Clone de Spotify",
+                "descripcion":"Este proyecto fue desarrollado en un curso de angular, el proyecto es un clone de la aplicación de stopify, se realizo con la intensión de practicar e incrementar mis conocimientos en este framework. La aplicación fue desarrollada netamente en Angular y consume una API de canciones desarrollada en NodeJS.",
+                "imagen":"./assets/img/projects/spotify.png",
+                "url_pagina":"https://clonespotifyapp.netlify.app",
+                "url_git":"https://github.com/Ciro132000/Spotify"
             },
             {
                 "name":"Proyecto 3",
                 "descripcion":"Proyecto 3",
-                "imagen":"",
+                "imagen":"./assets/img/proyecto.png",
                 "url_pagina":"",
                 "url_git":""
             }
