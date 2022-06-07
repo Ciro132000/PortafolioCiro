@@ -2,8 +2,42 @@
     height: 100vh;
 }
 
-img{
+/* img{
     width: 100px;
     display: block;
     margin: 0px auto;
+} */
+
+img{
+    width: 100%;
+    max-height: 400px;
+}
+
+.banner{
+    background: rgba(0, 0, 0, 0.609);  
+    background: -webkit-linear-gradient(to right,rgba(0, 0, 0, 0.609), rgba(74, 77, 78, 0.609)), url('../../../../assets/img/banner-projects.jpg'); 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(74, 77, 78, 0.609)), url('../../../../assets/img/banner-projects.jpg'); 
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    transform: translate3d(0px, 0px, 0px);
+    background-position: 80% 50%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60vh;
+    color: var(--color-golden-2);
+}
+
+.banner h1{
+    font-size: 5rem;
+}
+
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }

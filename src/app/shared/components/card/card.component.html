@@ -1,1 +1,18 @@
-<p>card works!</p>
+<div [ngClass]="{'flex-row-reverse':index%2===0}" class="row my-4">
+    <div data-aos="zoom-in-down" class="col-md-5">
+        <img src="{{ dataProject.imagen }}" />
+      </div>
+      <div class="col-md-7" data-aos="zoom-out">
+        <h5 class="text-center pt-4 title-project">{{ dataProject.name }}</h5>
+        <p class="text-center pt-3">{{ dataProject.descripcion }}</p>
+        <div class="d-flex justify-content-evenly visit-web">
+          <a *ngIf="dataProject.url_git !== ''" href="{{ dataProject.url_git }}" target="_blank"
+            ><i class="fa fa-github icon" aria-hidden="true"></i
+          ></a>
+          <a *ngIf="dataProject.url_pagina !== ''" href="{{ dataProject.url_pagina }}" target="_blank"
+            ><i class="fa fa-desktop" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+</div>
+

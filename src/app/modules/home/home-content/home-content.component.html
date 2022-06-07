@@ -52,18 +52,8 @@
 
       <div class="container works mb-5">
         <h2 class="mb-5 subtitle text-center">Proyectos</h2>
-        <div [ngClass]="{'flex-row-reverse':i%2===0}" class="row my-4" *ngFor="let c of ciro.trabajos.slice(0, 2); let i = index "  >
-          <div data-aos="zoom-in-down" class="col-md-6 ">
-            <img src={{c.imagen}} >
-          </div>
-          <div class="col-md-6" data-aos="zoom-out">
-            <h5 class="text-center pt-4 title-project">{{ c.name }}</h5>
-            <p class="text-center pt-3">{{ c.descripcion }}</p>
-            <div class="d-flex justify-content-evenly visit-web">
-              <a *ngIf="c.url_git !== '' " href={{c.url_git}} target="_blank"><i class="fa fa-github icon" aria-hidden="true"></i></a>
-              <a *ngIf="c.url_pagina !== '' " href={{c.url_pagina}} target="_blank"><i class="fa fa-desktop" aria-hidden="true"></i></a>
-            </div>
-          </div>
+        <div>
+          <app-card *ngFor="let c of ciro.trabajos.slice(0, 2); let i = index " [dataProject]="c" [index]="i" ></app-card> 
         </div>
 
         <a [routerLink]="['/projects']" class="text-decoration-none mb-5 linkRedirect">Ver más proyectos<i class="fa fa-arrow-right" ></i></a>

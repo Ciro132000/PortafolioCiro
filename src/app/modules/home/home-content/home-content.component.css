@@ -70,10 +70,6 @@
 }
 
 
-.works img{
-    width: 100%;
-}
-
 .container-fluid{
     padding: 0;
 }
@@ -82,13 +78,3 @@
     padding: 0;
 }
 
-.visit-web a{
-    margin-top: 2rem;
-    color: black;
-    font-size: 1.5rem;
-}
-
-.title-project{
-    font-size: 2rem;
-    color: rgba(228, 106, 6, 0.513);
-}

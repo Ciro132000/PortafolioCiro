@@ -77,10 +77,10 @@
                 "url_git":"https://github.com/Ciro132000/Spotify"
             },
             {
-                "name":"Proyecto 3",
-                "descripcion":"Proyecto 3",
-                "imagen":"./assets/img/proyecto.png",
-                "url_pagina":"",
+                "name":"Mapas",
+                "descripcion":"Este proyecto fue desarrollado en un curso gratuito de angular, el proyecto se basa en la elaboracion de un mapa similar a Google Maps, se realizo con la intensión de practicar e incrementar mis conocimientos en este framework. La aplicación fue desarrollada netamente en Angular y usando mapBox.",
+                "imagen":"./assets/img/projects/map.png",
+                "url_pagina":"https://maps-angular-mapbox.netlify.app",
                 "url_git":""
             }
         ],
