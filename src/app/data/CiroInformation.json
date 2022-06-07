@@ -23,42 +23,50 @@
             {
                 "tecnologia":"HTML",
                 "level":60,
-                "img":"./assets/img/conocimientos/html.png"
+                "img":"./assets/img/conocimientos/html.png",
+                "backcolor": "orange"
             },
             {
                 "tecnologia":"CSS 3",
                 "level":60,
-                "img":"./assets/img/conocimientos/css.png" 
+                "img":"./assets/img/conocimientos/css.png",
+                "backcolor": "rbg(0, 131, 212 )" 
             },
             {
                 "tecnologia":"JAVA SCRIPT",
-                "level":60,
-                "img":"./assets/img/conocimientos/js.png" 
+                "level":40,
+                "img":"./assets/img/conocimientos/js.png",
+                "backcolor": "yellow" 
             },
             {
                 "tecnologia":"JAVA",
-                "level":60,
-                "img":"./assets/img/conocimientos/java.png" 
+                "level":30,
+                "img":"./assets/img/conocimientos/java.png",
+                "backcolor": "rgb(50, 114, 148)" 
             },
             {
                 "tecnologia":"BOOTSTRAP",
-                "level":60,
-                "img":"./assets/img/conocimientos/bootstrap.png" 
+                "level":50,
+                "img":"./assets/img/conocimientos/bootstrap.png",
+                "backcolor": "rgb(92, 94, 188)" 
             },
             {
                 "tecnologia":"ANGULAR",
-                "level":60,
-                "img":"./assets/img/conocimientos/angular.png" 
+                "level":40,
+                "img":"./assets/img/conocimientos/angular.png",
+                "backcolor": "red" 
             },
             {
                 "tecnologia":"VUE JS",
-                "level":60,
-                "img":"./assets/img/conocimientos/vue.png" 
+                "level":50,
+                "img":"./assets/img/conocimientos/vue.png",
+                "backcolor": "green" 
             },
             {
                 "tecnologia":"NODE JS",
-                "level":60,
-                "img":"./assets/img/conocimientos/node.png" 
+                "level":30,
+                "img":"./assets/img/conocimientos/node.png",
+                "backcolor": "green" 
             }
         ],
         "trabajos":[
@@ -67,21 +75,86 @@
                 "descripcion":"Este proyecto fue desarrollado para la empresa promolider, dicho proyecto consta en el desarrollo de una aula virtual para los clientes de la empresa, esta aula virtual brinda a los usuarios diversos cursos los cuales pueden adquirir mediante una menbresia, además, el usuario puede crear sus propios cursos y generar ingresos.",
                 "imagen":"./assets/img/projects/promolider.png",
                 "url_pagina":"http://virtual-classroom.promolider.xyz",
-                "url_git":""
+                "url_git":"",
+                "tecnologias":[
+                    {
+                        "front":[
+                            "vuejs",
+                            "bootstrap"
+                        ]
+                    },
+                    {
+                        "back":[
+                            "Laravel",
+                            "Mysql"
+                        ]
+                    },
+                    {
+                        "otros":[
+                            "axios",
+                            "Postman",
+                            "VideoJS"
+                        ]
+                    }
+                ]
             },
             {
                 "name":"Clone de Spotify",
                 "descripcion":"Este proyecto fue desarrollado en un curso de angular, el proyecto es un clone de la aplicación de stopify, se realizo con la intensión de practicar e incrementar mis conocimientos en este framework. La aplicación fue desarrollada netamente en Angular y consume una API de canciones desarrollada en NodeJS.",
                 "imagen":"./assets/img/projects/spotify.png",
                 "url_pagina":"https://clonespotifyapp.netlify.app",
-                "url_git":"https://github.com/Ciro132000/Spotify"
+                "url_git":"https://github.com/Ciro132000/Spotify",
+                "tecnologias":[
+                    {
+                        "front":[
+                            "ANGULAR",
+                            "CSS"
+                        ]
+                    },
+                    {
+                        "back":[
+                            "NODEJS"
+                        ]
+                    },
+                    {
+                        "otros":[
+                            "POSTMAN"
+                        ]
+                    }
+                ]
             },
             {
                 "name":"Mapas",
                 "descripcion":"Este proyecto fue desarrollado en un curso gratuito de angular, el proyecto se basa en la elaboracion de un mapa similar a Google Maps, se realizo con la intensión de practicar e incrementar mis conocimientos en este framework. La aplicación fue desarrollada netamente en Angular y usando mapBox.",
                 "imagen":"./assets/img/projects/map.png",
                 "url_pagina":"https://maps-angular-mapbox.netlify.app",
-                "url_git":""
+                "url_git":"",
+                "tecnologias":[
+                    {
+                        "front":[
+                            "Angular",
+                            "bootstrap"
+                        ],
+                        "otros":[
+                            "Mapbox"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Portafolio",
+                "descripcion":"Este proyecto fue desarrollado en un curso gratuito de angular, el proyecto se basa en la elaboracion de un mapa similar a Google Maps, se realizo con la intensión de practicar e incrementar mis conocimientos en este framework. La aplicación fue desarrollada netamente en Angular y usando mapBox.",
+                "imagen":"./assets/img/projects/portafolio.png",
+                "url_pagina":"https://cirocandiotti.netlify.app/",
+                "url_git":"https://github.com/Ciro132000/PortafolioCiro",
+                "tecnologias":[
+                    {
+                        "front":[
+                            "Angular",
+                            "bootstrap"
+                        ]
+                    }
+                ]
             }
         ],
         "certificados":[

@@ -50,13 +50,13 @@
     background: -webkit-linear-gradient(to right,rgb(0, 0, 0), rgb(74, 77, 78)); 
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 77, 78)); 
 
-    padding-top: 5rem;
+    /* padding-top: 5rem;
     padding-bottom: 6rem;
 
     margin-top: 6rem;
 
-    position: relative;
-    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 93%);
+    position: relative; */
+    clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
 }
 
 .card{
@@ -78,3 +78,24 @@
     padding: 0;
 }
 
+
+
+.progress{
+    background-color: rgba(122, 122, 122, 0.342);
+}
+
+img{
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    img{
+        height: 100%;
+    }
+
+    .img-conocimiento{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+}

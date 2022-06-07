@@ -4,7 +4,16 @@
       </div>
       <div class="col-md-7" data-aos="zoom-out">
         <h5 class="text-center pt-4 title-project">{{ dataProject.name }}</h5>
-        <p class="text-center pt-3">{{ dataProject.descripcion }}</p>
+        <p class="pt-3">{{ dataProject.descripcion }}</p>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-custom " data-bs-toggle="modal" [attr.data-bs-target]="'#' + dataProject.name.split(' ').join('')">
+            Conoce más
+            <svg>
+              <rect x="0" y="0" fill="none" ></rect>
+            </svg>
+          </button>
+        </div>
+
         <div class="d-flex justify-content-evenly visit-web">
           <a *ngIf="dataProject.url_git !== ''" href="{{ dataProject.url_git }}" target="_blank"
             ><i class="fa fa-github icon" aria-hidden="true"></i
@@ -16,3 +25,62 @@
       </div>
 </div>
 
+
+<div class=" modal fade" [id]="dataProject.name.split(' ').join('')" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{ dataProject.name }}</h5>
+        <button type="button" class="btn-closed" data-bs-dismiss="modal" aria-label="Close"> <i class="fa fa-times" aria-hidden="true"></i> </button>
+      </div>
+      <div class="modal-body mb-3">
+        <img [src]="dataProject.imagen" alt="">
+        <p>
+          {{ dataProject.descripcion }}
+        </p>
+
+        <div class="row">
+          <h5 class="text-center title-tec">Tecnologias, aplicativos y librerias</h5>
+          <div *ngFor="let item of dataProject.tecnologias; let in=index" class="col my-4">
+            <div *ngIf="in === 0 && item.front">
+              <h5 class="text-center tecnologias">FONT END</h5>
+              <ul *ngFor="let i of item.front" class="text-center">
+                <li class="text-uppercase">
+                  {{ i }}
+                </li>
+              </ul>
+            </div>
+
+            <div *ngIf="in === 1 && item.back">
+              <h5 class="text-center tecnologias">BACK END</h5>
+              <ul *ngFor="let i of item.back" class="text-center">
+                <li class="text-uppercase">
+                  {{ i }}
+                </li>
+              </ul>
+            </div>
+
+            <div *ngIf="in === 2 && item.otros ">
+              <h5 class="text-center tecnologias ">OTROS</h5>
+              <ul *ngFor="let i of item.otros" class="text-center ">
+                <li class="text-uppercase">
+                  {{ i }}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="d-flex justify-content-evenly visit-web">
+          <a *ngIf="dataProject.url_git !== ''" href="{{ dataProject.url_git }}" target="_blank"
+            ><i class="fa fa-github icon" aria-hidden="true"></i
+          ></a>
+          <a *ngIf="dataProject.url_pagina !== ''" href="{{ dataProject.url_pagina }}" target="_blank"
+            ><i class="fa fa-desktop" aria-hidden="true"></i
+          ></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

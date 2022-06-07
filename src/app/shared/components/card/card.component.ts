@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+  Object = Object;
+
   @Input() dataProject:any
 
   @Input() index:any
@@ -16,4 +18,9 @@ export class CardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  projetcSelect:any
+
+  change(){
+
+  }
 }

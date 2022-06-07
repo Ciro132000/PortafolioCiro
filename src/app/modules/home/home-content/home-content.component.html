@@ -26,20 +26,20 @@
         </div>
     </div>
     <div class="skill">
-        <div class="container">
+        <div class="container py-5">
             <h2 class="mb-5 subtitle text-center">Conocimientos</h2>
-            <div class="row d-flex justify-content-center">
-                <div *ngFor="let conocimiento of ciro.conocimientos" class="col-md-6 col-sm-12 my-4">
-                    <div class="card"  data-aos="fade-up-left">
-                        <div class="row g-0">
-                          <div class="col-2">
+            <div class="row">
+                <div *ngFor="let conocimiento of ciro.conocimientos; let i=index" class="col-md-6 col-sm-12 my-4 ">
+                    <div  data-aos="fade-up-left">
+                        <div class="row justify-content-center" [ngClass]="{'flex-row-reverse':i%2!==0}">
+                          <div class="col-md-2 col-sm-12 img-conocimiento">
                             <img src={{conocimiento.img}} class="img-fluid rounded-start" alt="...">
                           </div>
-                          <div class="col-5">
+                          <div class="col-md-5 col-sm-12">
                             <div class="card-body">
-                              <h5 class="text-center my-2 text-light card-title">{{ conocimiento.tecnologia }}</h5>
-                              <div class="progress" style="height: 20px;">
-                                <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <h5 class="text-center mb-4 text-light card-title">{{ conocimiento.tecnologia }}</h5>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" [style.backgroundColor]="conocimiento.backcolor" [style.width]="conocimiento.level+'%'" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                             </div>
                           </div>
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-      <div class="container works mb-5">
+      <div class="container works my-5">
         <h2 class="mb-5 subtitle text-center">Proyectos</h2>
         <div>
           <app-card *ngFor="let c of ciro.trabajos.slice(0, 2); let i = index " [dataProject]="c" [index]="i" ></app-card> 
