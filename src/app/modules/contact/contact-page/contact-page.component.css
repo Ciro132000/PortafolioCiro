@@ -58,16 +58,33 @@
 .mail{
     background: var(--bg-degrad);
     color: white;
-    padding-left: 16.1%;
-    min-height: 40vh;
+    /* padding-left: 16.1%; */
+    height: 80vh;
+    position: relative;
+}
+
+.wave{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .mail h1{
-    font-size: 3.5rem;
+    text-overflow: clip;
+    width: 100%;
     color: var(--color-golden-2) ;
 }
 
 .formulario{
     width: 80%;
     margin: auto
+}
+
+.formulario h3{
+  color: var(--color-golden);
+}
+
+.btn{
+  background: var(--color-golden);
+  color: white;
 }
