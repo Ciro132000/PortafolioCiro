@@ -39,3 +39,14 @@ p{
 .subtitle-2{
     font-size: 1.5rem;
 }
+
+.view-filter{
+    font-size: 3rem !important;
+    color: var(--color-golden-2);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.rotate-arow{
+    transform: rotate(180deg);
+}

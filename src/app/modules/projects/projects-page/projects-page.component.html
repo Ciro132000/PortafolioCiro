@@ -14,7 +14,10 @@
             </svg>
         </div>
     </div>
-    <div class="container my-5">
-        <app-card *ngFor="let c of ciro.trabajos; let i = index " [dataProject]="c" [index]="i" ></app-card> 
+    <div class="container c my-5">
+        <app-card *ngFor="let c of ciro.trabajos | filtro:page ; let i = index " [dataProject]="c" [index]="i" ></app-card> 
+        <div class="d-flex justify-content-center mt-5">
+            <i class="fa fa-chevron-circle-down view-filter" aria-hidden="true" [ngClass]="{'rotate-arow':mas==false}" (click)="mas? viewMore(ciro.trabajos):viewMenos()"></i>
+        </div>
     </div>
 </div>

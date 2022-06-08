@@ -29,7 +29,7 @@
         <div class="container py-5">
             <h2 class="mb-5 subtitle text-center">Conocimientos</h2>
             <div class="row">
-                <div *ngFor="let conocimiento of ciro.conocimientos; let i=index" class="col-md-6 col-sm-12 my-4 ">
+                <div *ngFor="let conocimiento of ciro.conocimientos | filtro:conocimientosNumber; let i=index" class="col-md-6 col-sm-12 my-4 ">
                     <div  data-aos="fade-up-left">
                         <div class="row justify-content-center" [ngClass]="{'flex-row-reverse':i%2!==0}">
                           <div class="col-md-2 col-sm-12 img-conocimiento">
@@ -45,6 +45,9 @@
                           </div>
                         </div>
                     </div>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                  <i class="fa fa-chevron-circle-down view-filter" aria-hidden="true" [ngClass]="{'rotate-arow':mas==false}" (click)="mas? viewMore(ciro.trabajos):viewMenos()"></i>
                 </div>
               </div>   
         </div>

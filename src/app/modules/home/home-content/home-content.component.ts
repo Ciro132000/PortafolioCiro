@@ -8,6 +8,9 @@ import CiroInformation from '@data/CiroInformation.json';
 })
 export class HomeContentComponent implements OnInit {
 
+  public conocimientosNumber:number=0;
+  public mas:boolean=true;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -15,4 +18,19 @@ export class HomeContentComponent implements OnInit {
 
   ciro=CiroInformation
 
+  viewMore(trabajos:any){
+    if(this.conocimientosNumber + 12 >= trabajos.length ){
+      this.mas=false;
+    }
+    
+    this.conocimientosNumber += 6;
+    
+  }
+
+  viewMenos(){
+    if(this.conocimientosNumber - 6 === 0 ){
+      this.mas=true;
+    }
+    this.conocimientosNumber -=6
+  }
 }

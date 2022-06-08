@@ -19,7 +19,8 @@ import {RouterModule} from '@angular/router';
   ],
   exports:[
     CardComponent,
-    NavBarComponent
+    NavBarComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }

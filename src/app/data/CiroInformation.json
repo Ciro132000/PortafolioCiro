@@ -24,19 +24,19 @@
                 "tecnologia":"HTML",
                 "level":60,
                 "img":"./assets/img/conocimientos/html.png",
-                "backcolor": "orange"
+                "backcolor": "rgb(255, 125, 20)"
             },
             {
                 "tecnologia":"CSS 3",
                 "level":60,
                 "img":"./assets/img/conocimientos/css.png",
-                "backcolor": "rbg(0, 131, 212 )" 
+                "backcolor": "rbg(99, 184, 250)" 
             },
             {
                 "tecnologia":"JAVA SCRIPT",
                 "level":40,
                 "img":"./assets/img/conocimientos/js.png",
-                "backcolor": "yellow" 
+                "backcolor": "rgb(220, 214, 46)" 
             },
             {
                 "tecnologia":"JAVA",
@@ -48,7 +48,7 @@
                 "tecnologia":"BOOTSTRAP",
                 "level":50,
                 "img":"./assets/img/conocimientos/bootstrap.png",
-                "backcolor": "rgb(92, 94, 188)" 
+                "backcolor": "rgb(122, 64, 215)" 
             },
             {
                 "tecnologia":"ANGULAR",
@@ -60,13 +60,37 @@
                 "tecnologia":"VUE JS",
                 "level":50,
                 "img":"./assets/img/conocimientos/vue.png",
-                "backcolor": "green" 
+                "backcolor": "rgb(39, 220, 158)" 
             },
             {
                 "tecnologia":"NODE JS",
                 "level":30,
                 "img":"./assets/img/conocimientos/node.png",
+                "backcolor": "rgb(7, 199, 76)" 
+            },
+            {
+                "tecnologia":"GIT",
+                "level":50,
+                "img":"./assets/img/conocimientos/git.png",
+                "backcolor": "rgb(208, 82, 1 )" 
+            },
+            {
+                "tecnologia":"EXCEL",
+                "level":50,
+                "img":"./assets/img/conocimientos/excel.png",
                 "backcolor": "green" 
+            },
+            {
+                "tecnologia":"MYSQL",
+                "level":30,
+                "img":"./assets/img/conocimientos/mysql.png",
+                "backcolor": "rgb(0, 150, 205 )" 
+            },
+            {
+                "tecnologia":"PHP",
+                "level":20,
+                "img":"./assets/img/conocimientos/php.png",
+                "backcolor": "rgb(1, 108, 198)" 
             }
         ],
         "trabajos":[
