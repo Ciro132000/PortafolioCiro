@@ -17,7 +17,7 @@ import { FiltroPipe } from './pipes/filtro.pipe';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class HomeModule { }

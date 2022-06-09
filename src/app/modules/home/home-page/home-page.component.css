@@ -1,3 +1,4 @@
 .home-wrapper{
-  overflow: hidden
+  overflow: hidden;
+  background-color: var(--bg-main);
 }

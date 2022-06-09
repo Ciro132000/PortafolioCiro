@@ -1,11 +1,13 @@
 <div class="portada">
     <img src="../../../../assets/img/portadaAbout.jpg" alt="">
 </div>
-<div class="container my-5">
-    <h5 class="my-5 subtitle-2">Sobre mí</h5>
-    <h1 class="mb-4">{{ ciro.information.fullName }}</h1>
-    <span>{{ ciro.information.ciudad}} <img class="peru" src="../../../../assets/img/icon/iconperu.png" alt=""> </span>
-    <div class="row my-5">
+<div class="container my-5" >
+    <h5 class="my-5 subtitle-2" data-aos="zoom-out">Sobre mí</h5>
+    <h1 class="mb-4" data-aos="zoom-in-right">{{ ciro.information.fullName }}</h1>
+    <span data-aos="zoom-in-right">{{ ciro.information.ciudad}} <img class="peru" src="../../../../assets/img/icon/iconperu.png" alt=""> </span>
+    <div class="row my-5" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <div class="col-md-8">
             <p *ngFor="let item of ciro.information.fullAbout">
                 {{ item.p }}
@@ -13,9 +15,9 @@
         </div>
     </div>
     <hr>
-    <h5 class="my-5 subtitle-2">Certificados y reconocimientos</h5>
+    <h5 class="my-5 subtitle-2" data-aos="zoom-out">Certificados y reconocimientos</h5>
     <div class="row certification">
-        <div class="col-md-4 col-sm-12 my-4 d-flex flex-column" *ngFor="let item of ciro.certificados; let i = index ">
+        <div class="col-md-4 col-sm-12 my-4 d-flex flex-column" data-aos="zoom-in-up" *ngFor="let item of ciro.certificados; let i = index ">
             <i class="fa fa-certificate text-center" aria-hidden="true"></i>
             <h5 class="nameCertification">{{ item.nombre }}</h5>
             <h5 class="nameEmit"><strong>Emitido por: </strong> {{ item.emisor }}</h5>

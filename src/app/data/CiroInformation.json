@@ -158,7 +158,14 @@
                         "front":[
                             "Angular",
                             "bootstrap"
-                        ],
+                        ] 
+                    },
+                    {
+                        "back":[
+                            "No presenta BackEnd"
+                        ]
+                    },
+                    {
                         "otros":[
                             "Mapbox"
                         ]
@@ -176,6 +183,17 @@
                         "front":[
                             "Angular",
                             "bootstrap"
+                        ]
+                    },
+                    {
+                        "back":[
+                            "No presenta BackEnd"
+                        ]
+                    },
+                    {
+                        "otros":[
+                            "AOS",
+                            "JSON"
                         ]
                     }
                 ]
