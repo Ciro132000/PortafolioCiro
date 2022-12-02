@@ -8,7 +8,7 @@ import CiroInformation from '@data/CiroInformation.json';
 })
 export class ProjectsPageComponent implements OnInit {
 
-  public page:number=0;
+  public numberProject:number=0;
   public mas:boolean=true;
 
   constructor() { }
@@ -23,19 +23,19 @@ export class ProjectsPageComponent implements OnInit {
 
   ciro=CiroInformation
 
-  viewMore(trabajos:any){
-    if(this.page + 6 >= trabajos.length ){
+  seeMore(trabajos:any){
+    if(this.numberProject + 6 >= trabajos.length ){
       this.mas=false;
     }
     
-    this.page += 3;
+    this.numberProject += 3;
     
   }
 
-  viewMenos(){
-    if(this.page - 3 === 0 ){
+  seeLess(){
+    if(this.numberProject - 3 === 0 ){
       this.mas=true;
     }
-    this.page -=3
+    this.numberProject -=3
   }
 }

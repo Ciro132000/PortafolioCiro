@@ -64,17 +64,27 @@ ul {
   }
   
   ul li:nth-child(1) a:before{
-    background: rgba(59, 89, 153, 0.418);
+    background: rgb(59, 89, 153);
   }
   
   ul li:nth-child(2) a:before{
-    background: rgba(0, 118, 181,  0.418);
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   }
-  
+
   ul li:nth-child(3) a:before {
-    background: rgba(0, 0, 0,  0.418);
+    background: rgb(0, 172, 238);
   }
   
+  ul li:nth-child(4) a:before {
+    background:rgb(0, 118, 181);
+  }
+  
+  ul li:nth-child(5) a:before {
+    background: rgb(0, 0, 0);
+  }
+  
+
   .folow{
     color: var(--color-golden-2);
     font-size: 1rem;

@@ -3,7 +3,7 @@
 
     /* colors*/
     --color-golden: rgb(194, 183, 28);
-    --color-golden-2: rgb(110, 103, 1);
+    --color-golden-2: rgb(136, 127, 0);
 
     /* background*/
     --bg-degrad-trans: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(74, 77, 78, 0.609));

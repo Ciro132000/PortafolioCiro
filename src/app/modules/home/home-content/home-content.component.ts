@@ -23,7 +23,7 @@ export class HomeContentComponent implements OnInit {
 
   ciro=CiroInformation
 
-  viewMore(trabajos:any){
+  seeMore(trabajos:any){
     if(this.conocimientosNumber + 12 >= trabajos.length ){
       this.mas=false;
     }
@@ -32,7 +32,7 @@ export class HomeContentComponent implements OnInit {
     
   }
 
-  viewMenos(){
+  seeLess(){
     if(this.conocimientosNumber - 6 === 0 ){
       this.mas=true;
     }

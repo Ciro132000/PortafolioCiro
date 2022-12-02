@@ -5,9 +5,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FiltroPipe implements PipeTransform {
 
-  transform(value: any, page: number = 0): any {
+  transform(value: any, numberProject: number = 0): any {
     
-    return value.slice(0,page+3);
+    return value.slice(0,numberProject+3);
   }
 
 }
